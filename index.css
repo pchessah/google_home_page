@@ -1,44 +1,80 @@
-
-body{
-    display: flex;
-    flex-direction: column;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-li{
-    float: right;
+li {
+  float: right;
 }
 
-li a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 12px 14px;
-    text-decoration: none;
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
 }
 
-li img{
-    border-radius: 20px;    
- 
+li img {
+  border-radius: 20px;
 }
 
-li a:hover{
-    text-decoration: underline;
+li a:hover {
+  text-decoration: underline;
 }
 
-#google-apps{
-    width: 25px;
-    height: 25px;
-    margin: 7.5px;
+#google-apps {
+  width: 25px;
+  height: 25px;
+  margin: 7.5px;
 }
 
-#profile-pic{
-    margin: 5.5px 12px 7.5px 7.5px;
+#profile-pic {
+  margin: 5.5px 12px 7.5px 7.5px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+#search-input {
+  margin: 2rem;
+  width: 45rem;
+  border-radius: 19px;
+  padding: 11px;
+  border-color: #e3dfdb;
+  border-style: solid;
+  border-width: 0.1rem;
+  outline: none;
+}
+
+#search-input:hover {
+  box-shadow: 0.5px 0px 3px 0px rgb(36, 36, 36);
+  transform: scale(1.01);
+}
+
+#search-buttons button {
+  padding: 11px 19px;
+  outline: none;
+  border: none;
+  margin: 5px;
+  border-radius: 3px;
+}
+#search-icon {
+  position: absolute;
+  margin-left: 3.5rem;
+  margin-top: 3rem;
+  width: 5px;
+  height: 5px;
+}
